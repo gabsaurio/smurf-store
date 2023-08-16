@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Smurf Store</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <img src="./asset/img/logo.png" alt="logo" class="logo" />
+      <nav class="navbar">
+        <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
+        <ul class="navbar-list">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#servicio">Servicios</a></li>
+          <li><a href="#oferta">Ofertas</a></li>
+          <li><a href="#contactos">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- HERO -->
+      <section class="section" id="hero">
+        <div class="hero-presentation">
+          <h1>¡Bienvenido a <span>Smurf Store!</span></h1>
+          <p>
+            Vendemos todas las skins de la tienda del LoL a un precio accesible
+            y seguro. Consulta sin compromiso por la tuya
+          </p>
+          <div class="button-conteiner">
+            <a href="#" class="primary-btn">Comprar skin</a>
+            <a href="#" class="alt-btn">Ver ofertas</a>
+          </div>
+        </div>
+        <img src="./asset/img/fondo.png" alt="fondo" />
+      </section>
+      <!-- SERVICIO -->
+      <section id="servicio" class="servicio">
+        <h2>Estamos para ofrecerte</h2>
+        <p>
+          Obtén una cuenta smurf para subir de rango y aprovecha nuestras
+          ofertas semanales en la tienda para comprar botín de LoL y TFT.
+          También ofrecemos servicio de Eloboost para alcanzar tus metas de
+          clasificación de manera rápida y sencilla.
+        </p>
+
+        <div class="card-servicio">
+          <div class="card-2">
+            <i class="fa-solid fa-globe"></i>
+            <h3>Cuentas fresh</h3>
+            <p>
+              ¡Obtén tu cuenta nivel 30 con MMR fresh y correo sin verificar!
+              Disponible en todas las regiones y con garantía antibaneo. ¡Todo
+              por solo $1000 ARS o $3.50 USD!
+            </p>
+          </div>
+          <div class="card-2">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            <h3>Eloboost</h3>
+            <p>
+              Toma el control de tu clasificación en League of Legends con
+              nuestro servicio de Eloboost. Nuestro equipo de jugadores expertos
+              está listo para elevar tu cuenta a nuevas alturas de victoria. Con
+              años de experiencia y un historial comprobado, garantizamos
+              resultados excepcionales.
+            </p>
+          </div>
+          <div class="card-2">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h3>Tienda de escencia</h3>
+            <p>
+              Ofrecemos una amplia selección de skins disponibles en la Tienda
+              del juego a precios reducidos y sin impuestos (excluyendo las
+              skins Prestigiosas/Hextech). Los precios mostrados en la imagen
+              son finales y no tendrás sorpresas adicionales. Además, contamos
+              con otros productos como Chromas, paquetes de skin con borde e
+              icono, paquetes de skin con chromas y adorables Chibis.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- OFERTAS -->
+      <section class="oferta" id="oferta">
+        <h2>Skins con descuento de la semana</h2>
+        <div class="contenedor-cards">
+          <div class="card">
+            <img src="./asset/img/skin1.jpg" alt="Imagen 1" />
+            <p>Caitlyn de Arcadia</p>
+            <p>1012RP $2300ARG</p>
+          </div>
+          <div class="card">
+            <img src="./asset/img/skin2.jpg" alt="Imagen 2" />
+            <p>Lucian Arcana</p>
+            <p>975RP $2000ARG</p>
+          </div>
+          <div class="card">
+            <img src="./asset/img/skin3.jpg" alt="Imagen 3" />
+            <p>Qiyana Reina Guerrera</p>
+            <p>675RP $1775ARG</p>
+            <p></p>
+          </div>
+          <div class="card">
+            <img src="./asset/img/skin4.jpg" alt="Imagen 4" />
+            <p>Sion Escarcha Negra</p>
+            <p>536RP $1600ARG</p>
+          </div>
+          <div class="card">
+            <img src="./asset/img/skin5.jpg" alt="Imagen 5" />
+            <p>Kalista Luna de Sangre</p>
+            <p>877RP $2100ARG</p>
+          </div>
+          <div class="card">
+            <img src="./asset/img/skin6.jpg" alt="Imagen 6" />
+            <p>Varus Cazador Cosmico</p>
+            <p>975RP $2300ARG</p>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACTO -->
+      <section class="contacto" id="black-bg">
+        <div class="contact-section">
+          <div class="contact-title">¡Contáctanos!</div>
+          <div class="contact-info">
+            ¿Tienes alguna pregunta o comentario? ¡Estamos aquí para ayudarte!
+          </div>
+          <div class="contact-form">
+            <form>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Correo electrónico:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Mensaje:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <p>
+            &copy; 2023 Smurf Store. Todos los derechos reservados. |
+            <a href="#">Política de Privacidad</a> |
+            <a href="#">Términos y Condiciones</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
